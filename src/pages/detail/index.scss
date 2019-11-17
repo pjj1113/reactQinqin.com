@@ -1,0 +1,35 @@
+.detail-content{
+    width: 100%;
+    flex: 1;
+    img{
+        width: 100%;
+        height: 3.75rem;
+    }
+    h2{
+        font-size: 0.18rem;
+        font-weight: 400;
+        padding: 0.05rem 0 .06rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+    .detail-content-info{
+        display: flex;
+        justify-content: space-between;
+        .detail-content-jiage{
+            display: flex;
+            flex-direction:column;
+            span{
+                b{
+                    color: #e54847;
+                }
+            }
+            strong{
+                b{
+                    color: #e54847;
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,24 @@
+@import '../../assets/style/theme.scss';
+@import '../../assets/style/border.scss';
+.comtent{
+    flex: 1;
+    overflow: auto;
+}
+.home-title{
+    height:0.44rem;
+    display: flex;
+    justify-content:space-around;
+    font-size: 0.16rem;
+    line-height: 0.44rem;
+    @include border( #ccc, 0 0 1px 0 );
+    a{
+        color: #666;
+        padding: 0 0.2rem;
+        text-decoration: none;
+        &.active{
+            color: $theme;
+            border-bottom: 0.02rem solid $theme;
+
+        }
+    }
+}

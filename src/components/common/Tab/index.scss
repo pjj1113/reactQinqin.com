@@ -1,0 +1,21 @@
+@import '../../../assets/style/theme.scss';
+.tab-box{
+    display: flex;
+    height: 0.505rem;
+    background: $theme;
+    color: #ffffff;
+    padding:0  0.2rem;
+    i{
+        display: block;
+        width: 30px;
+        line-height: .505rem;
+        font-size: .30rem;
+    }
+    span{
+        line-height: .505rem;
+        font-size: .2rem;
+        flex: 1;
+        text-align: center;
+    }
+    
+}

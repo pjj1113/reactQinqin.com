@@ -1,0 +1,26 @@
+.shopcar-box{
+    ul {
+        display: flex;
+        flex-direction: column;
+        li{
+            padding: 0.1rem;
+            a{
+                display: flex;
+                img{
+                    width: 0.8rem;
+                    height: 0.9rem;
+                }
+                .shopcar-info{
+                    display: flex;
+                    align-items: center;
+                    span{
+                        display: inline-block;
+                        margin-left: 0.3rem;
+                        font-size: 0.12rem;
+                    }
+                }
+               
+            }
+        }
+    }
+}

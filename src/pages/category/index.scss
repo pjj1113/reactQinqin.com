@@ -1,0 +1,39 @@
+.cate-content{
+    display: flex;
+    flex-direction:column;
+    padding: 0.1rem;
+    h3{
+        font-size: 0.2rem;
+        float: left;
+    }
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        
+        justify-content: space-around;
+
+        li{
+            width: 0.7rem;
+            height: 0.9rem;
+            margin-bottom: 0.1rem;
+            a{
+                display: flex;
+                flex-direction: column;
+                img{
+                    width: 0.7rem;
+                    height: 0.7rem;
+                }
+                span{
+                    margin-top: 0.04rem;
+                    font-size: 0.14rem;
+                }
+
+            }
+        }
+        
+    }
+
+}
